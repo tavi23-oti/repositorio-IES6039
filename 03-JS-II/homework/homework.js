@@ -27,18 +27,6 @@ function conection(status) {
   //De lo contrario, presumimos que el usuario está "Offline"
   //Devolver el estado de conexión de usuario en cada uno de los casos.
 }
-function obtenerMayor(x, y) {
-  return Math.max(x, y);
-}
-
-function mayoriaDeEdad(edad) {
-  if (edad >= 18) {
-    return "Allowed";
-  } else {
-    return "Not allowed";
-  }
-}
-
 function conection(status) {
   if (status === 1) {
     return "Online";
